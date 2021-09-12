@@ -64,6 +64,12 @@ nav ul li a{
   font-family: 'Righteous', cursive;
   font-size: 24px;
   color: #FFE3E3;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  background-color: #eba970;
+  transition: 0.3s;
 }
 
 .studentSummon {
@@ -100,7 +106,7 @@ nav ul li a{
   background: transparent;
   padding: 12px;
   font-family: 'Alata', sans-serif;
-  font-size: 40px;
+  font-size: 36px;
   color: #F4F4F4;
   background: #F7D1BA;
 }

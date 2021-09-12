@@ -44,7 +44,7 @@ function randomNumber() {
     "Trịnh Thị Thủy Tú",
     "Nguyễn Minh Tuấn",
     "Trần Xuân Tùng",
-    "Nguyễn Lân uyên",
+    "Nguyễn Lân Uyên",
   ];
 
 
