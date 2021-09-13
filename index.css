@@ -100,7 +100,7 @@ nav ul li a:hover {
   /* color: rgb(185, 67, 67) */
   opacity: 1;
   border-radius: 0px;
-  transition: 1s;
+  transition: 0.8s;
 }
 
 /* .studentSummon #btn::before{
