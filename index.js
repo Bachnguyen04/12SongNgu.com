@@ -1,4 +1,3 @@
-
 function randomNumber() {
   var number = Math.floor(Math.random()*42);
 
@@ -45,11 +44,10 @@ function randomNumber() {
     "Nguyễn Minh Tuấn",
     "Trần Xuân Tùng",
     "Nguyễn Lân Uyên",
-  ];
+    ];
 
-
-  let outputNumber = document.getElementById("nameOutput")
+  let outputNumber = document.getElementById("nameOutput");
 
   outputNumber.innerHTML = hocSinhLopSN[number]
 
-}
+  }

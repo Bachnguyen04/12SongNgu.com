@@ -76,18 +76,48 @@ nav ul li a:hover {
   width: 80%;
   height: 60vh;
   background: transparent;
+  /* background-color: #B42B51; */
   margin: 120px 0px 0px 120px;
+  display: flexbox;
 }
 
 .studentSummon #btn {
   padding: 10px 20px;
-  background: #C68B59;
-  border: none;
+  /* background: #C68B59; */
+  /* background: #fcfcfb; */
+  background: white;
+  opacity: 0.9;
   cursor: pointer;
   font-size: 20px;
   font-family: 'Alata', sans-serif;
-  border-radius: 25px;
+  position: relative;
+  border-radius: 28px;
+  color: rgb(0, 0, 0);
+  border: 4px solid #556270;
 }
+
+.studentSummon #btn:hover {
+  /* color: rgb(185, 67, 67) */
+  opacity: 1;
+  border-radius: 0px;
+  transition: 1s;
+}
+
+/* .studentSummon #btn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #FF6B6B;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+} */
+
+
 
 .studentSummon #bachDzai {
   display: inline-block;
@@ -97,21 +127,24 @@ nav ul li a:hover {
   color: #FFE3E3;
 }
 
-
-.studentSummon #nameOutput {
-  display: inline-block;
-  width: auto;
-  margin-left: 370px;
-  /* background: transparent; */
-  padding: 12px;
-  font-family: 'Alata', sans-serif;
-  font-size: 36px;
-  color: #F4F4F4;
-  background: #F7D1BA;
+.studentSummon .card{
+  margin-top: 40px;
+  margin-left: 635px;
 }
 
-.studentSummon #btn:hover {
-  background-color: #caa482;
-  transition: 0.7s;
-  border-radius: 0px;
+.studentSummon #nameOutput {
+  display: flex;
+  background: linear-gradient(315deg,#ffec61,#f321d7);
+  display: inline-block;
+  /* width: auto; */
+  padding: 5px 20px;
+  font-family: 'Alata', sans-serif;
+  font-size: 32px;
+  color: #faf2d8;
+  /* background: #F7D1BA; */
+  background: #556270; 
+  background: -webkit-linear-gradient(to left, #FF6B6B, #556270);
+  background: linear-gradient(to left, #FF6B6B, #556270); 
+  margin: 0;
+  border-radius: 20px;
 }
