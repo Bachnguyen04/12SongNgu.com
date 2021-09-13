@@ -141,10 +141,7 @@ nav ul li a:hover {
   font-family: 'Alata', sans-serif;
   font-size: 32px;
   color: #faf2d8;
-  /* background: #F7D1BA; */
-  background: #556270; 
-  background: -webkit-linear-gradient(to left, #FF6B6B, #556270);
-  background: linear-gradient(to left, #FF6B6B, #556270); 
+  background: #C68B59;
   margin: 0;
   border-radius: 20px;
 }
