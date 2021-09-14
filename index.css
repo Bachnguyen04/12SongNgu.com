@@ -39,7 +39,7 @@ nav a img {
 nav ul .author {
   font-family: 'Permanent Marker', cursive;
   text-decoration: none;
-  margin-left: 90px;
+  margin-left: 60px;
   color: #FCDEC0;
   background-color: #C68B59;
   padding: 8px 15px;
@@ -64,12 +64,11 @@ nav ul li a{
   font-family: 'Righteous', cursive;
   font-size: 24px;
   color: #FFE3E3;
-  padding: 20px;
+  padding: 5px;
 }
 
-nav ul li a:hover {
-  background-color: #eba970;
-  transition: 0.3s;
+nav ul li a:hover{
+
 }
 
 .studentSummon {
@@ -77,7 +76,7 @@ nav ul li a:hover {
   height: 60vh;
   background: transparent;
   /* background-color: #B42B51; */
-  margin: 120px 0px 0px 120px;
+  margin: 120px 0px 0px 100px;
   display: flexbox;
 }
 
@@ -119,17 +118,18 @@ nav ul li a:hover {
 
 
 
-.studentSummon #bachDzai {
+/* .studentSummon #bachDzai {
   display: inline-block;
   width: auto;
-  margin-left: 660px;
+  margin-left: 640px;
   font-family: 'Alata', sans-serif;
   color: #FFE3E3;
-}
+} */
 
 .studentSummon .card{
-  margin-top: 40px;
-  margin-left: 635px;
+  margin-top: 200px;
+  margin-left: 430px;
+  align-items: center;
 }
 
 .studentSummon #nameOutput {
@@ -139,9 +139,9 @@ nav ul li a:hover {
   /* width: auto; */
   padding: 5px 20px;
   font-family: 'Alata', sans-serif;
-  font-size: 32px;
+  font-size: 37px;
   color: #faf2d8;
-  background: #C68B59;
+  background: transparent;
   margin: 0;
   border-radius: 20px;
 }
