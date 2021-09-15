@@ -49,6 +49,6 @@ function randomNumber() {
   let outputNumber = document.getElementById("nameOutput");
 
   outputNumber.innerHTML = hocSinhLopSN[number]
-  outputNumber.style.background = "#C68B59"
+  outputNumber.style.background = "url(image/background2.gif)"
 
   }

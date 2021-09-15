@@ -64,7 +64,14 @@ nav ul li a{
   font-family: 'Righteous', cursive;
   font-size: 24px;
   color: #FFE3E3;
-  padding: 5px;
+  padding: 0px 3px;
+}
+
+nav ul li a:hover{
+  border-bottom: 3px solid #f87272;
+  border-top: 3px solid #f87272;
+  /* border-right: 3px solid #5c5c5c; */
+  transition: 0.2s;
 }
 
 .studentSummon {
@@ -78,8 +85,6 @@ nav ul li a{
 
 .studentSummon #btn {
   padding: 10px 20px;
-  /* background: #C68B59; */
-  /* background: #fcfcfb; */
   background: white;
   opacity: 0.9;
   cursor: pointer;
@@ -118,17 +123,17 @@ nav ul li a{
   margin-top: 180px;
   margin-left: 35%;
   align-items: center;
+  padding: 0%;
 }
 
 .studentSummon #nameOutput {
   display: flex;
   background: linear-gradient(315deg,#ffec61,#f321d7);
   display: inline-block;
-  /* width: auto; */
   padding: 5px 20px;
   font-family: 'Alata', sans-serif;
   font-size: 37px;
-  color: #faf2d8;
+  color: #ffffff;
   background: transparent;
   margin: 0;
   border-radius: 20px;
